@@ -1,0 +1,26 @@
+#pragma once
+#define GAME_TITLE "AmericanChess"
+// GRAPHIC
+#define SCREEN_WITDH 1280
+#define SCREEN_HEIGHT 720
+#define FRAMERATE_LIMIT 59
+#define VERTICAL_SYNC false
+// GAMESTATE
+#define TRANSITION_DURATION 0.5f
+// CHARACTER
+#define SHOOTING_DURATION 0.25f
+#define SHOOTING_OFFSET 10.0f
+#define SHOOTING_RANGE_ANGLE 42.f
+#define SHOOTING_RANGE_THICKNESS 3
+#define SHOOTING_RANGE_COLOR sf::Color::Red
+// BOARD
+#define SHOW_UP_DURATION 1.f
+#define SHOW_UP_OFFSET 10.f
+#define BUZZING_OFFSET 0.8f
+#define BUZZING_DURATION PI/30.f
+#define MOVING_DURATION 0.5f
+#define HURT_COLOR sf::Color::Red
+#define HURT_OFFSET 10.f
+#define HURT_DURATION 0.15f
+#define KILL_DURATION 1.f
+#define FINAL_LEVEL 5
